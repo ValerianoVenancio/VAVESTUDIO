@@ -1,0 +1,36 @@
+main{
+    padding: 30px;
+}
+
+main div{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 18px;
+    color: dimgray;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    border: 3px solid #222;
+    background-color: #FFD700;
+    color: #222;
+
+    transition: all 0.5s;
+}
+
+input[type="button"]:hover{
+    border: 3px solid #FFD700;
+    background-color: #222;
+    color: #fff;
+
+}
+
+

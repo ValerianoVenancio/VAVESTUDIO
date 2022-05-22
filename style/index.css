@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    font-family: Arial;  
+}
+
+#cabecalho{
+    background-color: rgb(90, 2, 32);
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+#area-logo{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;  
+    margin-right: 100px;
+}
+
+#logotipo{
+    width: 200px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 19px;
+}
+
+#menu a{
+    cursor: pointer;  
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;  
+}
+
+ 
+#menu a:hover{
+    color: #FFD700;
+    font-size: 18px;
+}
+
+#banner{
+    width: 100%;
+    
+}
+
+#banner img{
+    width: 100%;
+    
+
+}
+
+main{
+    text-align: center;
+    color: #2b2828;
+}
+
+main #intro{
+    margin-top: 30px;
+    padding: 20px;
+    color:  blue;
+}
+
+
+#intro p{
+    margin-top: 12px;
+}
+
+
+
+
+#area-cursos{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+    
+}
+
+.cartao{
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-align: left;
+    width: 330px;
+    border-radius: 16px;
+}
+
+.cartao img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+            
+}
+
+.cartao .conteudo{
+    padding: 20px;
+}
+
+.cartao .conteudo p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+}
+
+.cartao .conteudo h4{
+    margin-bottom: 12px;
+    background-color: rgba(75,0,130,0.1);
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 30px;
+    color: #4B0082;
+
+}
+
+
+footer{
+    background-color: rgb(63, 1, 1);
+    padding: 30px;
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;  
+}
+
+
+
+
