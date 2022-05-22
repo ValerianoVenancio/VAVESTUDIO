@@ -34,3 +34,7 @@ input[type="button"]:hover{
 }
 
 
+imput[button="orange"]::content{
+
+    border: 0ex; stroke-width: unset;
+}
